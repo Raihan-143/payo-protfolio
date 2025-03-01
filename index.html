@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payo Protfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-800">
+    <section class="max-w-md min-h-screen mx-auto py-6 bg-gray-200">
+        <header>
+            <nav class="flex justify-center items-center">
+                <div class="mt-10 relative flex justify-center items-center
+                w-9/12 mb-10">
+                    <img class="w-48 absolute mt-6" src="assets/bg.png" alt="">
+                    <img class="w-16" src="assets/Group.png" alt="">
+                </div>
+            </nav>
+        </header>
+        <!--login form-->
+        <div class="">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <div class="card-body">
+                  <fieldset class="fieldset">
+                    <label class="fieldset-label font-bold text-black">Acoount Number</label>
+                    <input value="01301301302" id="account-number" type="number" class="input" placeholder="type your number" />
+                    <label class="fieldset-label font-bold text-black">PIN</label>
+                    <input value="1234" id="Pin" type="pin" class="input" placeholder="type your pin" />
+                    <div><a class="link link-hover font-bold text-black">Forgot pin?</a></div>
+                    <button id="login-btn" class="btn btn-info mt-4 bg-[#0874F2] text-white font-bold">Login</button>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </section>
+    <script src="./script/login.js">
+
+    </script>
+    
+</body>
+</html>
